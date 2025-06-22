@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #5a71bb;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.lista-cadastro {
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.lista-cadastro input[type=text] {
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+}
+.lista-produtos-single{  /*js*/
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.lista-produtos h3 {  /*js*/
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3.price-produto{  /*js*/
+    text-align: right;
+    font-size: 17px;
+}
+
+.soma-produto{
+    margin: 20px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
